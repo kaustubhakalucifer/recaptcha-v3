@@ -35,7 +35,6 @@ app.post('/send', (req,res)=> {
         res.send(response);
     }
     main();
-    
 });
 
 app.listen(process.env.PORT || 3000, () => {
